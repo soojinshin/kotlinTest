@@ -1,0 +1,19 @@
+service.info:
+  name: Restful API Service
+  version: 1.0.0
+
+error.path: /errorPage
+server.error.includeStacktrace: ON_TRACE_PARAM
+
+spring.jpa.show-sql: true
+
+logging.level:
+  org.ksug: WARN
+  org.springframework: INFO
+  org.springframework.orm: DEBUG
+  org.springframework.web: INFO
+  org.springframework.boot: INFO
+
+data :
+  secret :
+      key : "zzzzzz"
